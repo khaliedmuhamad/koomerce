@@ -1,0 +1,20 @@
+.carousel-item{
+    height: 80vh !important;
+}
+.carousel-item .row{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.carousel-item img{
+    width: 50%;
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-caption{
+    position: static;
+    top: 40%;
+    right: 50%;
+}
