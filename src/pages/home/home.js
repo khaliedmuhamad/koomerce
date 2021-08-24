@@ -14,7 +14,7 @@ function Home() {
             <br />
             <br />
             <br />
-            <Bestsller />  
+            <Bestsller />
             <br />
             <br />
             <br />

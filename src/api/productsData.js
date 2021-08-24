@@ -17,21 +17,21 @@
         name:"ipad 4 Pro",
         type:"ipad",
         image:'',
-        rate:6,
+        rate:4,
         price:{before:"600" , after:"499"},
     },
     {
         name:"Apple ipod",
         type:"ipod",
         image:'',
-        rate:5,
+        rate:0,
         price:{before:"800" , after:"799"},
     },
     {
         name:"headphon h-203",
         type:"accessories",
         image:'',
-        rate:5,
+        rate:1,
         price:{before:"509" , after:"499"},
     }
 ]

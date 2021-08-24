@@ -1,0 +1,21 @@
+div.dropdown-menu.catigory{
+    position: absolute;
+    left: 0 !important;
+    transform: translate(-20%,0);
+    width: 80vw;
+
+}
+
+.head-cate{
+color:#22262a98;
+font-size: 0.90rem;
+font-weight: 600;
+transform: translateY(15px);
+transition: all 0.5s ease;
+}
+.head-cate:hover,.head-cate.show{
+color:#33A0FF;
+transform: translateY(-5px);
+transition: all 0.5s ease;
+text-shadow: 2px 4px 5px rgba(51, 160, 255,0.2);
+}

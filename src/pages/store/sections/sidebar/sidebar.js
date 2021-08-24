@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Shop() {
+export default function Sidebar() {
     return (
         <div>
-            Hi from Shop 🛍️
+            hi side bar 🌠🌠🌠
         </div>
     )
 }
