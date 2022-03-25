@@ -43,13 +43,13 @@ export default function Nav() {
                 <NavLink to='/favourate' exact className="nav-link" >Iphone</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink to='/login' exact className="nav-link" >Ipad</NavLink>
+                <NavLink to='/ipad' exact className="nav-link" >Ipad</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink to='/login' exact className="nav-link" >MACBOOK</NavLink>
+                <NavLink to='/mac' exact className="nav-link" >MACBOOK</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink to='/login' exact className="nav-link" >ACCESORIES</NavLink>
+                <NavLink to='/acc' exact className="nav-link" >ACCESORIES</NavLink>
               </li>
             </ul>
           </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../components/footer/footer'
 import Search from '../../components/search/search'
 import Bestsller from './sections/bestseller/bestsller'
 import Carousel from './sections/carousel/carousel'
@@ -31,10 +30,6 @@ function Home() {
             <br />
             <br />
             <Search />
-            <br />
-            <br />
-            <br />
-            <Footer />
         </div>
     )
 }
