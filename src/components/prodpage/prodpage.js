@@ -86,6 +86,7 @@ const url = window.location.href;
 
 <div className='share'>
 <div class="fb-share-button" data-href={url} data-layout="button" data-size="large"><a target="_blank" href={`https://www.facebook.com/sharer/sharer.php?u=${url}`} class="fb-xfbml-parse-ignore">Share</a></div>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
 </div>
      
             </div>
