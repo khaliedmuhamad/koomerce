@@ -1,0 +1,71 @@
+.prodpage{
+    background-color: #FFFFFF;
+}
+.prodpage .prod-img .img{
+    width: 100%;
+    height: 100%;
+}
+.prodpage .prod-img .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.prodpage .row .prod-info .title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.prodpage .row .prod-info .price{
+    color: #FF4858;
+    font-size: 1.4rem;
+}
+.prodpage .row .prod-info .price .after{
+    color: #5d656b;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    text-decoration-color: #46494b59;
+}
+.prodpage .row .prod-info .info li,.color{
+      font-size: 0.8rem;
+      font-weight: 500;
+}
+.prodpage .row .prod-info .info li span,.color span{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.prodpage .row .prod-info .color li{
+
+    width: 70%;
+}
+.prodpage .row .prod-info .color li span{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.prodpage .row .prod-info .color li span.active{
+    opacity: 0.8 !important;
+    outline-width: 2px!important;
+}
+.prodpage .row .prod-info .counter{
+    background-color: #F6F7F8;
+    
+}
+.prodpage .row .prod-info .counter button{
+    color: #33A0FF;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+} 
+.prodpage .row .prod-info .addcart button{
+    font-size: 0.75rem !important;
+    font-weight: 600;
+}
+.share .fb-button{
+    background-color: #385C8E;
+}
+.share .tw-button {
+    background-color:     #03A9F4;
+}
+.share .fb-button a,.share .tw-button a{
+    color: #fff;
+    font-size: 0.75rem;
+}
+

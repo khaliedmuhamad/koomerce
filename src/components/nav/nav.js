@@ -11,7 +11,7 @@ export default function Nav() {
       <NavMiddle />
       <nav
         className="navbar navbar-expand-md navbar-light d-block"
-        style={{ background: "#F3F1F5" }}
+        style={{ background: "#f8f9fa" }}
       >
         <div className='container d-block'>
           <button
@@ -40,7 +40,7 @@ export default function Nav() {
                 <NavLink to='/store' exact className="nav-link" >Store</NavLink>
               </li>
               <li className="nav-item mx-2">
-                <NavLink to='/favourate' exact className="nav-link" >Iphone</NavLink>
+                <NavLink to='/iphone' exact className="nav-link" >Iphone</NavLink>
               </li>
               <li className="nav-item mx-2">
                 <NavLink to='/ipad' exact className="nav-link" >Ipad</NavLink>

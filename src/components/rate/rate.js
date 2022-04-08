@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
+import { BsStarFill, BsStarHalf } from "react-icons/bs";
 
 export default function Rate(e) {
   const [rates, setfirst] = useState(e.rates);
@@ -9,13 +9,13 @@ export default function Rate(e) {
   return (
     <div>
       {[...Array(a)].map((star) => (
-        <BsStarFill style={{ color: "#FFC600" }} />
+        <BsStarFill className="mr-1 text-1" style={{ color: "#FFC600" }} />
       ))}
       {[...Array(b/b)].map((star) => (
-        <BsStarHalf style={{ color: "#FFC600" }} />
+        <BsStarHalf  className="mr-1" style={{ color: "#FFC600" }} />
       ))}
       {[...Array(5- (a+1))].map((star) => (
-        <BsStar style={{ color: "#fff" }} />
+        <BsStarFill className="mr-1" style={{ color: "#C1C8CE" }} />
       ))}
     </div>
   );

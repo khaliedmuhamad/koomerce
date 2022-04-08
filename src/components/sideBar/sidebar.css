@@ -1,0 +1,19 @@
+.bgColor{
+    background-color: #f8f9fa;
+    color: #262626;
+    padding: 10px 20px;
+
+    font-size:1rem;
+}
+.val{
+    color:#22262a75;
+}
+li.active,li.active span{
+    color: #33A0FF !important
+}
+li:hover span{
+    color: #33A0FF !important;
+}
+li:hover {
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
-import Prodpage from '../../components/prodpage/prodpage'
-import Sidebar from './sections/sidebar/sidebar'
+import Prodspage from '../../components/prodspage/prodspage'
+
 
 export default function Store() {
     return (
@@ -8,11 +8,10 @@ export default function Store() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-4 '>
-                        <div className='p-2 bg-primary'><Sidebar />
+                        <div className='p-2 bg-primary'>
                         </div>
                     </div>
-                    <div className='col-8 '><div className='p-2'><Prodpage /></div></div>
-
+                    <div className='col-8 '><div className='p-2'><Prodspage /></div></div>
 
                 </div>
             </div>
