@@ -1,0 +1,13 @@
+.controls{
+    background-color: #F6F7F8;
+}
+.numsgrid{
+    position: absolute;
+    inset: 44px 0 0 0;
+    min-width: 150% !important;
+    min-height: 200% !important;
+}
+.items:nth-child(3){
+    position: relative;
+    inset: 0 0 0 0 ;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Controls from '../../components/controls/controls';
 import Offer from '../../components/offer/offer';
 import Sidebar from '../../components/sideBar/sidebar';
 
@@ -13,7 +14,7 @@ export default function Iphone() {
               {/**/}
               <Offer />
               {/**/}
-              
+              <Controls />
               {/**/}
               {/**/}
               {/**/}
