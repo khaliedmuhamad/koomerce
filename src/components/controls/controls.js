@@ -1,15 +1,29 @@
-import React,{ useState } from 'react';
+import React,{ useState ,useEffect } from 'react';
 import "./controls.css"
 import {AiFillCaretDown} from "react-icons/ai";
 import {CgMenuGridO , CgFormatJustify} from "react-icons/cg"
-export default function Controls() {
+export default function Controls(props) {
   const [TotalItems, setTotalItems] = useState(30);
   const [shownum, setshownum] = useState(12);
   const [showAvialable] = useState([9,12,,14,15,16,17,18,21]);
-  const [showItems,setShow] = useState(true);
+  const [showItems,setShow] = useState(false);
   const [sorting, setsorting] = useState("name");
   const [typeshow,setTypeShow] = useState("grid")
 
+  useEffect(() => {
+    props.getInfo({
+      totalItems : TotalItems,
+      showNum : shownum,
+      showAvailable : showAvialable,
+      sorting : sorting,
+      typeshow :typeshow
+    })
+    return () => {
+      
+    }
+  }, [typeshow,sorting,showAvialable,shownum,TotalItems])
+  
+  
 
   const Sortingdropdown = <div className='deopdown'>
     <button className='btn btn-transparent border dropdown-toggle ml-2 mt-0 pt-1 mb-0 pb-1' type='button' id='dropdownSortBy' data-toggle="dropdown" aria-expanded="false">
@@ -26,6 +40,7 @@ const numHandel = (e,lol) =>{
   setshownum(e.target.innerText)
   setShow(!lol)
 }
+
 return (
     <div className='controls row w-100 ml-0 mt-4 rounded-lg'>
       <div className='col-7 d-flex justify-content-between pt-1 pb-1'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Offer() {
   return (
-    <div className='offer bg-primary w-100 h-50 rounded-lg'  >
+    <div className='offer bg-primary w-100 h- rounded-lg'  >
                   <div className='row pl-5 h-100 justify-content-center align-items-center'>
                     
                     <div className='col-6 '>

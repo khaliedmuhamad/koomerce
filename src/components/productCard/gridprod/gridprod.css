@@ -1,0 +1,19 @@
+.product-name{
+    color: #262626;
+    font-size: 1.2rem;
+}
+.product-price{
+    color: #FF4858;
+    font-size: 1rem;
+}
+.product-price.after{
+    color: #5d656b;
+    font-size: 1rem;
+    text-decoration: line-through;
+    text-decoration-color: #46494b59;
+}
+hr{
+    width: 80%;
+    background: #e0e0e018;
+
+}

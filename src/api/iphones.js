@@ -12,7 +12,6 @@ const iphone = [
     images: "/products/iphones/ph13/ph13-blue.jpg",
     img:'ph13',
     quantity:5
-
 },
   {
     name: "Apple iPhone 13 Pro Max",
@@ -34,7 +33,7 @@ const iphone = [
     size: "128",
     memory: "128 ",
     operating_system: "IOS 14",
-    colour: Midnight,
+    colour: "Midnight",
     model_year: 2020,
     included: "USB-C ",
     images: "/products/iphones/ph12/ph12-white.jpg",

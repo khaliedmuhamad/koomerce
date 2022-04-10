@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
 
 export default function Rate(e) {
-  const [rates, setfirst] = useState(e.rates);
+  
+  const [rates] = useState(e.rates);
   const a = Math.floor(rates),
-    b = rates - Math.floor(rates);
+    b = 7 - rates;
 
   return (
     <div>
