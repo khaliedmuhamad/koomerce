@@ -3,11 +3,10 @@ import Rate from '../../rate/rate';
 import "./expandprod.css";
 import "../../prodpage/prodpage.css";
 import {FiShoppingCart,FiHeart} from "react-icons/fi"
-import img from "./ph13-blue.jpg";
+
 
 
 export default function Expandprod(props) {
-    const [rates] = useState(2)
     const [inCart,setInCart] = useState(false);
     const [inHeart,setInHeart] = useState(false);
     const [data] = useState(props.data)
@@ -32,7 +31,7 @@ export default function Expandprod(props) {
                 <div className='price mt-3'>
                     <span>{(data.price) - (data.price * data.Discounting/100)}</span><span className='ml-2 after'>{data.price}</span>
                 </div>
-                <div className='d-flex w-50 justify-content-start'>
+                <div className='d-flex w-50 justify-content-start mt-4'>
                     <div className='addcart'>
                         <button className={`btn ${inCart ?"btn-success" : "intial text-primary"} h-100 rounded`} onClick={()=> setInCart(!inCart)}  ><span className='mr-2'><FiShoppingCart /></span>{inCart ?"Added To Cart" : "Add To Cart"}</button>    
                     </div>

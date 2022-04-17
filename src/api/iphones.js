@@ -1,4 +1,4 @@
-const iphone = [
+const dataIphones = [
   {
     name: "New Apple iPhone 13",
     price: 15800,
@@ -9,24 +9,29 @@ const iphone = [
     colour: "Midnight",
     model_year: 2021,
     included: "USB-C ",
-    images: "/products/iphones/ph13/ph13-blue.jpg",
-    img:'ph13',
-    quantity:5
-},
+    Discounting: 15,
+    images: "/products/iphones/ph13/ph13-rose.jpg",
+    img: "ph13",
+    quantity: 5,
+    rate: 4.5,
+  },
   {
     name: "Apple iPhone 13 Pro Max",
-    price: 24.598,
+    price: 24598,
     colors: ["gold", "silver", "blue"],
     size: "256",
     memory: "256",
     operating_system: "IOS 14",
     colour: "silver",
     model_year: 2021,
-    included: "USB-C", 
-    images: "/products/iphones/phpro3/phpro13-gold.jpg",
-    img:'ph13pro',
-    quantity:4
-},{
+    included: "USB-C ",
+    Discounting: 15,
+    images: "/products/iphones/ph13pro/ph13pro-gold.jpg",
+    img: "ph13pro",
+    quantity: 4,
+    rate:"1.5"
+  },
+  {
     name: "Apple iPhone 12",
     price: 14450,
     colors: ["black", "green", "white"],
@@ -36,10 +41,13 @@ const iphone = [
     colour: "Midnight",
     model_year: 2020,
     included: "USB-C ",
+    Discounting: 12,
+    rate: 3.5,
     images: "/products/iphones/ph12/ph12-white.jpg",
-    img:'ph12',
-    quantity:6
-},{
+    img: "ph12",
+    quantity: 6,
+  },
+  {
     name: "Apple iPhone 12 Pro",
     price: 18440,
     colors: ["gold", "blue", "silver"],
@@ -49,11 +57,13 @@ const iphone = [
     colour: "blue",
     model_year: 2020,
     included: "USB-C ",
-    images: "/products/iphones/ph12pro/ph12pro-white.jpg",
-    img:'ph12pro',
-    quantity:2
-
-  },{
+    Discounting: 12,
+    rate: 3.5,
+    images: "/products/iphones/ph12pro/ph12pro-blue.jpg",
+    img: "ph12pro",
+    quantity: 2,
+  },
+  {
     name: "Apple iPhone 11",
     price: 12200,
     colors: ["black", "red", "white"],
@@ -63,22 +73,29 @@ const iphone = [
     colour: "black",
     model_year: 2019,
     included: "USB-C ",
+    Discounting: 12,
+    rate: 3.5,
     images: "/products/iphones/ph11/ph11-white.jpg",
-    img:'ph11',
-    quantity:8
-  },{
+    img: "ph11",
+    quantity: 8,
+  },
+  {
     name: "Apple iPhone 7",
     price: 5999,
     colors: ["black"],
-    size: "128", 
+    size: "128",
     memory: "128",
     operating_system: "IOS",
     colour: "black",
     model_year: 2018,
-    included: "USB",
-    img:"ph7",
-    quantity:0
-  },{
+    included: "USB-C ",
+    Discounting: 12,
+    images: "/products/iphones/ph7/ph7-black.jpg",
+    img: "ph7",
+    rate:3.5,
+    quantity: 0,
+  },
+  {
     name: "Apple iPhone 8",
     price: 7350,
     colors: ["gold"],
@@ -88,9 +105,13 @@ const iphone = [
     colour: "gold",
     model_year: 2019,
     included: "USB-C ",
-    img:"ph8",
-    quantity:1
-  },{
+    Discounting: 12,
+    rate: 3.5,
+    img: "ph8",
+    images: "/products/iphones/ph8/ph8-gold.jpg",
+    quantity: 1,
+  },
+  {
     name: "Apple iPhone 8 Plus",
     price: 8999,
     colors: ["gold"],
@@ -100,9 +121,13 @@ const iphone = [
     colour: "gold",
     model_year: 2019,
     included: "USB-C ",
-    img:"ph8pro",
-    quantity:10
-  },{
+    Discounting: 12,
+    rate: 3.5,
+    img: "ph8pro",
+    images: "/products/iphones/ph8pro/ph8pro-gold.jpg",
+    quantity: 10,
+  },
+  {
     name: "iPhone 11 Pro Max",
     price: 20000,
     colors: ["gold", "green", "silver"],
@@ -112,6 +137,11 @@ const iphone = [
     colour: "gold",
     model_year: 2021,
     included: "USB-C ",
-    img:"ph11prom",
-    quantity:6
-  }]
+    Discounting: 12,
+    rate: 3.5,
+    img: "ph11prom",
+    images: "/products/iphones/ph11prom/ph11prom-silver.jpg",
+    quantity: 6,
+  },
+];
+export default dataIphones;
